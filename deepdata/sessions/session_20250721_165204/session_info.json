@@ -1,0 +1,12 @@
+{
+  "session_name": "session_20250721_165204",
+  "start_time": "2025-07-21 16:52:04",
+  "camera_type": "opencv",
+  "camera_index": 0,
+  "resolution": "640x480",
+  "fps": "30",
+  "end_time": "2025-07-21 16:52:12",
+  "duration_seconds": 7,
+  "total_captures": 0,
+  "session_completed": true
+}
