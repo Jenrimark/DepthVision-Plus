@@ -1,0 +1,144 @@
+# ============================================================
+# DepthVision-Plus .gitignore
+# 多语言通用模板：操作系统 / IDE / 编译输出 / 缓存文件
+# 项目专属忽略项请追加到文末「项目专属忽略项」预留区
+# ============================================================
+
+# ---------------- 操作系统 ----------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ---------------- IDE / 编辑器 ----------------
+# JetBrains 系列（PyCharm / IntelliJ / CLion 等）
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ---------------- Python ----------------
+# 编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 打包产物
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# 测试 / 覆盖率 / 静态检查缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+.cache/
+
+# 日志与临时文件
+logs/
+*.log
+tmp/
+*.tmp
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------------- 其他语言（按需保留） ----------------
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Java / JVM
+target/
+*.class
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Go
+*.test
+*.out
+
+# ============================================================
+# 项目专属忽略项（在此追加；下面为示例，按需取消注释或修改）
+# ============================================================
+# 采集数据：程序运行自动生成，建议不入库。
+# 启用前若旧数据已被跟踪，先执行 git rm -r --cached deepdata
+# 停止跟踪历史数据（仅解除跟踪，不删除本地文件）。
+# deepdata/
+
+# 若音频素材改由使用者本地提供、不随仓库分发时可启用：
+# *.wav
+
+# 本地私有配置示例：
+# config.local.*
+# .env
